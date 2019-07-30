@@ -36,7 +36,7 @@ func (u *useragent) GetAllRandom() string {
 	browsers := u.GetAll()
 	data := make([]string, 0)
 	for _, uas := range browsers {
-		data = append(data, uas)
+		data = append(data, uas...)
 	}
 	l := len(data)
 	if l < 1 {
