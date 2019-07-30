@@ -2,7 +2,7 @@ package setting
 
 const (
 	CHROME            = "chrome"
-	INTERNET_EXPLORER = "internet_explorer"
+	INTERNET_EXPLORER = "internet-explorer"
 	FIREFOX           = "firefox"
 	SAFARI            = "safari"
 
