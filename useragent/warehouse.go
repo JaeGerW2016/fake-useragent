@@ -34,7 +34,7 @@ func (u *useragent) GetRandom(key string) string {
 
 func (u *useragent) GetAllRandom() string {
 	browsers := u.GetAll()
-	data := make([]string, 0)
+	var data []string
 	for _, uas := range browsers {
 		data = append(data, uas...)
 	}
